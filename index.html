@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- character encoding (this supports emojis, symbols, etc.)-->
+  <meta charset="UTF-8" />
+
+  <!-- responsive layout for mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio ✨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
+
+  <!-- Apple touch icon (iOS home screen) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.png">
+</head>
+
+<body>
+
+  <nav>
+    <h1>✨ Portfolio</h1>
+
+    <!-- WE'RE CREATING TWO DIFFERENT MENUS-->
+    <!-- Desktop menu -->
+    <ul class="nav-text">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- mobile menu -->
+    <ul class="nav-icons">
+      <li>
+        <a href="#projects" aria-label="Projects">
+          <i class="fa-solid fa-folder-open"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#contact" aria-label="Contact">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>I build and design modern applications and websites.</h2>
+    <p>Web Development • Apps • UI/UX • Design</p>
+  </header>
+
+  <section class="filters" id="projects"></section>
+  <section class="grid" id="projectGrid"></section>
+
+  <footer id="contact">
+    <div class="footer-container">
+
+      <!-- About Me -->
+      <div class="footer-about">
+        <h3>About Me</h3>
+        <p>
+          I’m a 22-year-old developer who loves building clean, intuitive web apps and software.
+          I enjoy creating user-friendly experiences that feel simple and thoughtful.
+          Outside of development, I design graphics for fun—like invitations, posters, book covers, and logos.
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-contact">
+        <h3>Contact Me</h3>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:atlimosia@gmail.com">atlimosia@gmail.com</a></p>
+        <p><i class="fa-solid fa-phone"></i> +27 68 655 5490</p>
+
+        <!-- Optional social links -->
+        <div class="footer-social">
+          <a href="https://github.com/AtleNxumalo" target="_blank" aria-label="GitHub"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/atlehang-nxumalo-24a521291/" target="_blank" aria-label="LinkedIn"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Atli. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle"></h3>
+        <span class="close" id="closeModal">✕</span>
+      </div>
+      <p id="modalDescription"></p>
+      <div class="carousel" id="modalImages"></div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
