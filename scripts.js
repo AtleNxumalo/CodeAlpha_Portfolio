@@ -23,7 +23,7 @@ const projects = [
         category: "web",
         type: "leisure",
         tags: ["javascript", "html", "css", "canvas", "game", "mobile-friendly"],
-        images: ["assets/saturn/calendar.jpeg", "assets/saturn/saturn-wrapped.jpeg", "assets/saturn/journal.jpeg", "assets/saturn/breathe.jpeg", "assets/saturn/behaviour-stats.jpeg", "assets/saturn/log-observation.jpeg", "assets/saturn/pattern-scanner.jpeg", "assets/saturn/lab-messages.jpeg", "assets/saturn/game-lobby.jpeg", "assets/saturn/pomodoro.jpeg", "assets/saturn/puzzle.jpeg", "assets/saturn/dungeon.jpeg", "assets/saturn/dungeon-game.jpeg"]
+        images: ["assets/saturn/calendar.jpeg", "assets/saturn/saturn-wrapped.jpeg", "assets/saturn/journal.jpeg", "assets/saturn/breathe.jpeg", "assets/saturn/behaviour-stats.jpeg", "assets/saturn/log-observation.jpeg", "assets/saturn/lab-messages.jpeg", "assets/saturn/game-lobby.jpeg", "assets/saturn/pomodoro.jpeg", "assets/saturn/puzzle.jpeg", "assets/saturn/dungeon.jpeg", "assets/saturn/dungeon-game.jpeg"]
     },
     {
         title: "Cielo Cosmico",
